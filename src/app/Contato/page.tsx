@@ -18,7 +18,6 @@ export default function contato() {
           </Link>
           <ul className="flex space-x-6">
             <li><Link href="/sobre" className="text-white">Sobre</Link></li>
-            <li><Link href="/areas-atuacao" className="text-white">Áreas de Atuação</Link></li>
             <li><Link href="/contato" className="text-white">Contato</Link></li>
           </ul>
         </nav>
