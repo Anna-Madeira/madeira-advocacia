@@ -16,7 +16,6 @@ export default function HomePage() {
           </Link>
           <ul className="flex space-x-6">
             <li><Link href="/sobre" className="text-white">Sobre</Link></li>
-            <li><Link href="/areas-atuacao" className="text-white">Áreas de Atuação</Link></li>
             <li><Link href='/Contato' className="text-white">Contato</Link></li>
           </ul>
         </nav>
@@ -45,7 +44,7 @@ export default function HomePage() {
                   Assessoria completa em questões trabalhistas para empregados e empregadores.
                   Garantimos seus direitos e a conformidade legal.
                 </p>
-                <Link href="/areas-atuacao/direito-sucessoes" className="text-blue-600 hover:underline font-medium">
+                <Link href="/areas-atuacao/direito-trabalho" className="text-blue-600 hover:underline font-medium">
                   Saiba Mais &rarr;
                 </Link>
               </div>
@@ -55,7 +54,7 @@ export default function HomePage() {
                   Atuação em contratos, responsabilidade civil, indenizações, propriedade e obrigações.
                   Soluções jurídicas para proteger seus interesses e resolver conflitos do dia a dia.
                 </p>
-                <Link href="/areas-atuacao/direito-imobiliario" className="text-blue-600 hover:underline font-medium">
+                <Link href="/areas-atuacao/direito-civel" className="text-blue-600 hover:underline font-medium">
                   Saiba Mais &rarr;
                 </Link>
               </div>
@@ -72,7 +71,7 @@ export default function HomePage() {
               Entre em contato hoje mesmo para agendar sua consulta e encontrar a solução jurídica que você precisa.
             </p>
             <Link
-            href='/src/app/contato.tsx'
+            href='/Contato'
               className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3
               px-8 rounded-full text-lg md:text-xl transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
               Fale Conosco
