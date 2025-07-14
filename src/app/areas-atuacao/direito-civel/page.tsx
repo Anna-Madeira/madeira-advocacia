@@ -26,35 +26,26 @@ export default function atuation(){
             <div className="grid grid-cols-1 gap-8">
               <div className="bg-gray-100 p-8 rounded-lg">
                 <p className="text-gray-700 mb-4  italic">
-                  O Direito de Família lida com as relações mais íntimas, exigindo um olhar humano e estratégico.
-                  Nosso time oferece suporte jurídico completo e empático para guiar você em cada etapa, sempre buscando o bem-estar de todos os envolvidos, especialmente das crianças.
-                    Nossa atuação especializada abrange:</p>
+                 O Direito Cível rege as relações jurídicas entre pessoas, empresas e instituições, abrangendo uma vasta gama de situações cotidianas.
+                Nosso time oferece suporte jurídico abrangente para defender seus direitos e resolver conflitos de forma eficiente e justa.
+                Nossa atuação especializada abrange:</p>
                   <ul className="list-inside mb-4 text-center">
                         <li className='mb-2 italic'>
-                          <span className="font-bold">Divórcio e Separação:</span> Orientação para dissolução do casamento, seja consensual ou litigiosa.
+                          <span className="font-bold">Contratos:</span> Análise, elaboração e revisão de contratos, além da resolução de disputas contratuais.
                         </li>
                         <li className='mb-2 italic'>
-                          <span className="font-bold">Guarda e Convivência:</span> Definição da guarda dos filhos e do regime de visitação, priorizando o desenvolvimento das crianças.
+                          <span className="font-bold">Responsabilidade Civil:</span> Ações de indenização por danos materiais, morais e estéticos resultantes de acidentes, falhas de serviço ou outras violações de direitos.
                         </li>
                         <li className='mb-2 italic'>
-                          <span className="font-bold">Pensão Alimentícia:</span> Fixação, revisão ou exoneração, assegurando o sustento e a justa contribuição.
+                          <span className="font-bold">Direito do Consumidor:</span> Defesa dos direitos de consumidores contra práticas abusivas, produtos defeituosos ou serviços inadequados.
                         </li>
                         <li className='mb-2 italic'>
-                          <span className="font-bold">União Estável:</span> Reconhecimento, dissolução e conversão, com foco nos aspectos patrimoniais.
-                        </li>
-                        <li className='mb-2 italic'>
-                          <span className="font-bold">Paternidade e Filiação:</span> Ações de investigação e reconhecimento, garantindo os direitos de filiação.
-                        </li>
-                        <li className='mb-2 italic'>
-                          <span className="font-bold">Partilha de Bens:</span> Divisão do patrimônio em casos de divórcio, união estável ou sucessão.
-                        </li>
-                        <li className='mb-2 italic'>
-                          <span className="font-semibold">Inventário e Sucessões:</span> Apoio em processos de herança e testamentos.
+                          <span className="font-bold">Execução de Dívidas:</span> Cobrança judicial e extrajudicial de débitos e recuperação de créditos.
                         </li>
                       </ul>
                     <p className='mb-4  italic'>
-                      Nosso time se dedica a oferecer orientação clara e soluções eficazes, proporcionando segurança e tranquilidade para que você possa seguir em frente com confiança.
-                    </p>
+                Com uma abordagem prática e focada em resultados, nosso time está preparada para oferecer a orientação
+                e a representação necessárias para proteger seus interesses no universo do Direito Cível.</p>
                     <div className="flex justify-center items-center">
                      <Link
                         href='/Contato'

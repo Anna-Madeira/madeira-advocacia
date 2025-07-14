@@ -15,6 +15,7 @@ export default function HomePage() {
             Madeira Advocacia
           </Link>
           <ul className="flex space-x-6">
+            <li> <Link href='/' className='text-white'>Início</Link></li>
             <li><Link href="/sobre" className="text-white">Sobre</Link></li>
             <li><Link href='/Contato' className="text-white">Contato</Link></li>
           </ul>

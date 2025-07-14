@@ -11,7 +11,6 @@ export default function atuation(){
             Madeira Advocacia
           </Link>
           <ul className="flex space-x-6">
-            <li> <Link href='/' className='text-white'>Início</Link></li>
             <li><Link href="/sobre" className="text-white">Sobre</Link></li>
             <li><Link href='/Contato' className="text-white">Contato</Link></li>
           </ul>
@@ -26,34 +25,25 @@ export default function atuation(){
             <div className="grid grid-cols-1 gap-8">
               <div className="bg-gray-100 p-8 rounded-lg">
                 <p className="text-gray-700 mb-4  italic">
-                  O Direito de Família lida com as relações mais íntimas, exigindo um olhar humano e estratégico.
-                  Nosso time oferece suporte jurídico completo e empático para guiar você em cada etapa, sempre buscando o bem-estar de todos os envolvidos, especialmente das crianças.
-                    Nossa atuação especializada abrange:</p>
+                 O Direito do Trabalho é a base das relações entre empregadores e empregados. Seja você trabalhador buscando seus direitos ou empresa buscando conformidade, 
+                 nosso time oferece assessoria jurídica especializada para garantir um ambiente de trabalho justo e equilibrado.
+                 Nossa atuação especializada abrange:</p>
                   <ul className="list-inside mb-4 text-center">
                         <li className='mb-2 italic'>
-                          <span className="font-bold">Divórcio e Separação:</span> Orientação para dissolução do casamento, seja consensual ou litigiosa.
+                          <span className="font-bold">Reclamações Trabalhistas:</span> Representação de trabalhadores em busca de direitos como horas extras, adicionais (insalubridade, periculosidade), verbas rescisórias, equiparação salarial e assédio.
                         </li>
                         <li className='mb-2 italic'>
-                          <span className="font-bold">Guarda e Convivência:</span> Definição da guarda dos filhos e do regime de visitação, priorizando o desenvolvimento das crianças.
+                          <span className="font-bold">Defesa de Empresas:</span> Assessoria jurídica preventiva e contenciosa para empresas, visando evitar litígios e defender seus interesses em ações trabalhistas.
                         </li>
                         <li className='mb-2 italic'>
-                          <span className="font-bold">Pensão Alimentícia:</span> Fixação, revisão ou exoneração, assegurando o sustento e a justa contribuição.
+                          <span className="font-bold">Acordos e Negociações:</span> Mediação e elaboração de acordos para solução amigável de conflitos.
                         </li>
                         <li className='mb-2 italic'>
-                          <span className="font-bold">União Estável:</span> Reconhecimento, dissolução e conversão, com foco nos aspectos patrimoniais.
-                        </li>
-                        <li className='mb-2 italic'>
-                          <span className="font-bold">Paternidade e Filiação:</span> Ações de investigação e reconhecimento, garantindo os direitos de filiação.
-                        </li>
-                        <li className='mb-2 italic'>
-                          <span className="font-bold">Partilha de Bens:</span> Divisão do patrimônio em casos de divórcio, união estável ou sucessão.
-                        </li>
-                        <li className='mb-2 italic'>
-                          <span className="font-semibold">Inventário e Sucessões:</span> Apoio em processos de herança e testamentos.
+                          <span className="font-bold">Consultoria e Pareceres:</span> Orientação sobre legislação trabalhista, contratos de trabalho, demissões e compliance.
                         </li>
                       </ul>
                     <p className='mb-4  italic'>
-                      Nosso time se dedica a oferecer orientação clara e soluções eficazes, proporcionando segurança e tranquilidade para que você possa seguir em frente com confiança.
+                      Nosso time se dedica a oferecer soluções estratégicas para proteger seus interesses e garantir a aplicação correta da legislação trabalhista.
                     </p>
                     <div className="flex justify-center items-center">
                      <Link

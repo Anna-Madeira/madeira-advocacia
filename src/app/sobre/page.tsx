@@ -11,6 +11,7 @@ export default function about(){
             Madeira Advocacia
           </Link>
           <ul className="flex space-x-6">
+            <li> <Link href='/' className='text-white'>Início</Link></li>
             <li><Link href="/sobre" className="text-white">Sobre</Link></li>
             <li><Link href='/Contato' className="text-white">Contato</Link></li>
           </ul>
@@ -31,13 +32,12 @@ export default function about(){
                <p className='font-bold mb-4'>
                   Direito de Família: Oferecer suporte em momentos delicados, como divórcio, guarda de filhos, pensão alimentícia e questões de herança, sempre buscando o melhor interesse da família.
                  </p>
+                   <p className='font-bold mb-4'>
+                   Direito do Trabalho: Proteger os interesses de trabalhadores e empregadores em questões como rescisão de contrato, horas extras, assédio, justa causa e direitos trabalhistas em geral.
+                 </p>
                  <p className='font-bold mb-4'>
                   Direito Cível: Atuar em diversas questões, incluindo contratos, responsabilidade civil, indenizações, direito do consumidor e disputas imobiliárias, garantindo a defesa dos seus direitos.
                  </p>
-                 <p className='font-bold mb-4'>
-                   Direito do Trabalho: Proteger os interesses de trabalhadores e empregadores em questões como rescisão de contrato, horas extras, assédio, justa causa e direitos trabalhistas em geral.
-                 </p>
-
                  <p className='text-center mb-4'>
                    A Dra. Teresa Cristina Madeira está comprometida em fornecer orientação clara, representação jurídica sólida e resultados positivos, construindo relacionamentos de confiança com cada cliente.
                  </p>
@@ -46,7 +46,16 @@ export default function about(){
                 </div>
                 </div>
                 </main>
-                </div>
+                <footer className="bg-gray-800 text-white py-8 text-center text-sm">
+        <div className="container mx-auto px-4">
+          <p>© {new Date().getFullYear()} Madeira Advocacia. Todos os direitos reservados.</p>
+          <div className="mt-2 space-x-4">
+            <Link href="/politica-privacidade" className="hover:underline">Política de Privacidade</Link>
+            <Link href="/termos-de-uso" className="hover:underline">Termos de Uso</Link>
+          </div>
+        </div>
+      </footer>
+    </div>
   )
 }
  
