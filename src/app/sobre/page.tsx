@@ -21,14 +21,14 @@ export default function about(){
        <section className="py-2  bg-blue-900"/>
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white">
-                 Conheça nosso time jurídico
+                 Sobre o nosso escritório.
             </h2>
             <div className= "container flex mx-auto px-4 items-center justify-between">
               <div className="bg-gray-100 p-8 mx-auto px-4 rounded-lg items-center justify-between">
                 <p className="text-gray-700 mb-4 text-center">
-                  A Dra. Teresa Cristina Madeira é uma advogada altamente qualificada e com vasta experiência, inscrita na OAB/SP sob o número 519862.
-                  Especialista nas complexas áreas do Direito de Família, Direito Cível e Direito do Trabalho, oferece um atendimento jurídico focado em soluções eficazes e no bem-estar de seus clientes.
-                  Com uma abordagem personalizada e empática, ela se dedica a:  </p>
+                  Nosso time é altamente qualificado e com vasta experiência de atendimento e atuação
+                  nas complexas áreas do Direito de Família, Direito Cível e Direito do Trabalho, oferecemos um atendimento jurídico focado em soluções eficazes e no bem-estar de seus clientes.
+                  Com uma abordagem personalizada e empática, nosso time se dedica a:  </p>
                <p className='font-bold mb-4'>
                   Direito de Família: Oferecer suporte em momentos delicados, como divórcio, guarda de filhos, pensão alimentícia e questões de herança, sempre buscando o melhor interesse da família.
                  </p>
@@ -39,7 +39,7 @@ export default function about(){
                   Direito Cível: Atuar em diversas questões, incluindo contratos, responsabilidade civil, indenizações, direito do consumidor e disputas imobiliárias, garantindo a defesa dos seus direitos.
                  </p>
                  <p className='text-center mb-4'>
-                   A Dra. Teresa Cristina Madeira está comprometida em fornecer orientação clara, representação jurídica sólida e resultados positivos, construindo relacionamentos de confiança com cada cliente.
+                   Estamos comprometidos em fornecer orientação clara, representação jurídica sólida e resultados positivos, construindo relacionamentos de confiança com cada cliente.
                  </p>
 
                 </div>
@@ -49,6 +49,7 @@ export default function about(){
                 <footer className="bg-gray-800 text-white py-8 text-center text-sm">
         <div className="container mx-auto px-4">
           <p>© {new Date().getFullYear()} Madeira Advocacia. Todos os direitos reservados.</p>
+          <p> Responsável Técnica: Dra. Teresa Cristina Madeira - OAB/SP: 519862</p>
           <div className="mt-2 space-x-4">
           </div>
         </div>

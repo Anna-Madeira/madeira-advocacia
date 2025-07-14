@@ -84,6 +84,7 @@ export default function contato() {
       <footer className="bg-gray-800 text-white py-8 text-center text-sm">
         <div className="container mx-auto px-4">
           <p>© {new Date().getFullYear()} Madeira Advocacia. Todos os direitos reservados.</p>
+          <p> Dra. Teresa Cristina Madeira - OAB/SP: 519862</p>
           <div className="mt-2 space-x-4">
             
           </div>
