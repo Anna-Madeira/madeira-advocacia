@@ -2,26 +2,48 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react'; 
+
 
 
 
 export default function HomePage() {
+    const [isMenuOpen, setIsMenuOpen] = useState(false); 
   return (
-    <div className="min-h-screen bg-blue-900 text-gray-800">
+   <div className="min-h-screen bg-blue-900 text-gray-800">
       <header className="bg-blue-900 shadow-sm py-4">
-        <nav className="container mx-auto px-4 flex justify-between items-center">
-        <Image src = '/logo.png' alt='logo' width={190} height={190} className="items-center justify-items-center m-6"/>
-          <Link href="/" className="text-4xl font-bold text-white text-center">
-            Madeira Advocacia
-          </Link>
-          <ul className="flex space-x-6">
-            <li> <Link href='/' className='text-white'>Início</Link></li>
-            <li><Link href="/sobre" className="text-white">Sobre</Link></li>
-            <li><Link href='/Contato' className="text-white">Contato</Link></li>
+        <nav className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center relative">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start w-full md:w-auto mb-4 md:mb-0">
+            <Image
+              src='/logo.png'
+              alt='logo'
+              width={100} 
+              height={100} 
+              className="mb-2 md:mb-6 md:mr-6 max-md:"/>
+            <Link href="/" className="text-2xl md:text-4xl font-bold text-white text-center md:text-center">
+              Madeira Advocacia
+            </Link>
+          </div>
+          <button
+            className="md:hidden absolute top-4 right-4 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Abrir menu">
+            {isMenuOpen ? (
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>) : (
+              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>)}
+          </button>
+          <ul
+            className={`
+              flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6
+              mt-4 md:mt-0 w-full md:w-auto items-center
+              ${isMenuOpen ? 'block' : 'hidden'} md:flex
+            `}>
+            <li> <Link href='/' className='text-white text-lg hover:text-blue-200' onClick={() => setIsMenuOpen(false)}>Início</Link></li>
+            <li><Link href="/sobre" className="text-white text-lg hover:text-blue-200" onClick={() => setIsMenuOpen(false)}>Sobre</Link></li>
+            <li><Link href='/Contato' className="text-white text-lg hover:text-blue-200" onClick={() => setIsMenuOpen(false)}>Contato</Link></li>
           </ul>
         </nav>
       </header>
-
       <main>
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
