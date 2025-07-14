@@ -85,8 +85,7 @@ export default function contato() {
         <div className="container mx-auto px-4">
           <p>© {new Date().getFullYear()} Madeira Advocacia. Todos os direitos reservados.</p>
           <div className="mt-2 space-x-4">
-            <Link href="/politica-privacidade" className="hover:underline">Política de Privacidade</Link>
-            <Link href="/termos-de-uso" className="hover:underline">Termos de Uso</Link>
+            
           </div>
         </div>
       </footer>
