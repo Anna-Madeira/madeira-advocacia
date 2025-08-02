@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react'; 
+import { Analytics } from "@vercel/analytics/next"
 
 
 
@@ -110,6 +111,7 @@ export default function HomePage() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }
