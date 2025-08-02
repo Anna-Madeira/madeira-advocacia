@@ -1,6 +1,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { Analytics } from '@vercel/analytics/next';
 
 export default function contato() {
   const whatsappNumber = '5511913405280'; 
@@ -90,6 +91,7 @@ export default function contato() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 }

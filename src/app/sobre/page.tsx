@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function about(){
   return(
@@ -54,6 +55,7 @@ export default function about(){
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   )
 }

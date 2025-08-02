@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { Analytics } from '@vercel/analytics/next';
 
 export default function atuation(){
   return(
@@ -75,6 +76,7 @@ export default function atuation(){
           </div>
         </div>
       </footer>
+      <Analytics/>
     </div>
   )
 }
