@@ -15,21 +15,29 @@ export default function SobrePage() {
         </h2>
         <div className="bg-gray-100 p-8 rounded-lg max-w-3xl mx-auto">
           <p className="text-gray-700 mb-4 text-center">
-            A Dra. Teresa Cristina Madeira é uma advogada altamente qualificada e com vasta experiência, inscrita na OAB/SP sob o número 519862.
-            Especialista nas complexas áreas do Direito de Família, Direito Cível e Direito do Trabalho, oferece um atendimento jurídico focado em soluções eficazes e no bem-estar de seus clientes.
-            Com uma abordagem personalizada e empática, ela se dedica a:
+            Dra. Teresa Cristina Madeira é advogada inscrita na OAB/SP sob o nº 519862, com atuação nas áreas de
+            Direito de Família, Direito Cível e Direito do Trabalho.
+          </p>
+          <p className="text-gray-700 mb-4 text-center">
+            Seu trabalho é pautado por atendimento próximo e personalizado, com atenção ao contexto de cada
+            cliente diante de questões que muitas vezes envolvem momentos sensíveis da vida pessoal ou
+            profissional.
           </p>
           <p className="font-bold mb-4">
-            Direito de Família: Oferecer suporte em momentos delicados, como divórcio, guarda de filhos, pensão alimentícia e questões de herança, sempre buscando o melhor interesse da família.
+            Direito de Família — Atuação em processos de divórcio, guarda de filhos, pensão alimentícia e
+            questões de herança.
           </p>
           <p className="font-bold mb-4">
-            Direito do Trabalho: Proteger os interesses de trabalhadores e empregadores em questões como rescisão de contrato, horas extras, assédio, justa causa e direitos trabalhistas em geral.
+            Direito do Trabalho — Orientação e representação de trabalhadores e empregadores em temas como
+            rescisão de contrato, horas extras, assédio, justa causa e demais direitos trabalhistas.
           </p>
           <p className="font-bold mb-4">
-            Direito Cível: Atuar em diversas questões, incluindo contratos, responsabilidade civil, indenizações, direito do consumidor e disputas imobiliárias, garantindo a defesa dos seus direitos.
+            Direito Cível — Atuação em contratos, responsabilidade civil, indenizações, direito do consumidor
+            e disputas imobiliárias.
           </p>
           <p className="text-center">
-            A Dra. Teresa Cristina Madeira está comprometida em fornecer orientação clara, representação jurídica sólida e resultados positivos, construindo relacionamentos de confiança com cada cliente.
+            Dra. Teresa preza por uma comunicação clara e transparente ao longo de todo o processo, mantendo
+            o cliente informado sobre cada etapa do seu caso.
           </p>
         </div>
       </div>
