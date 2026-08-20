@@ -5,6 +5,7 @@ export default function Footer() {
     <footer className="bg-gray-800 text-white py-8 text-center text-sm">
       <div className="container mx-auto px-4">
         <p>© {new Date().getFullYear()} Madeira Advocacia. Todos os direitos reservados.</p>
+        <p className="mt-2 text-gray-400">Advogada Responsável: Teresa Cristina Madeira — OAB/SP nº 519862</p>
         <div className="mt-2 space-x-4">
           <Link href="/politica-privacidade" className="hover:underline">Política de Privacidade</Link>
           <Link href="/termos-de-uso" className="hover:underline">Termos de Uso</Link>

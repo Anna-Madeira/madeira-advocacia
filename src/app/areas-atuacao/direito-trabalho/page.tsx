@@ -16,16 +16,16 @@ export default function DireitoTrabalhoPage() {
         </h2>
         <div className="bg-gray-100 p-8 rounded-lg max-w-3xl mx-auto">
           <p className="text-gray-700 mb-4 italic">
-            O Direito do Trabalho é a base das relações entre empregadores e empregados. Seja você trabalhador buscando seus direitos ou empresa buscando conformidade,
-            nosso time oferece assessoria jurídica especializada para garantir um ambiente de trabalho justo e equilibrado.
-            Nossa atuação especializada abrange:
+            O Direito do Trabalho rege as relações entre empregadores e empregados. Seja você trabalhador buscando seus direitos ou empresa buscando conformidade,
+            nosso time oferece assessoria jurídica para um ambiente de trabalho justo e equilibrado.
+            Nossa área de atuação abrange:
           </p>
           <ul className="list-inside mb-4 text-center">
             <li className="mb-2 italic">
               <span className="font-bold">Reclamações Trabalhistas:</span> Representação de trabalhadores em busca de direitos como horas extras, adicionais (insalubridade, periculosidade), verbas rescisórias, equiparação salarial e assédio.
             </li>
             <li className="mb-2 italic">
-              <span className="font-bold">Defesa de Empresas:</span> Assessoria jurídica preventiva e contenciosa para empresas, visando evitar litígios e defender seus interesses em ações trabalhistas.
+              <span className="font-bold">Defesa de Empresas:</span> Assessoria jurídica preventiva e contenciosa para empresas, na defesa de seus interesses em ações trabalhistas.
             </li>
             <li className="mb-2 italic">
               <span className="font-bold">Acordos e Negociações:</span> Mediação e elaboração de acordos para solução amigável de conflitos.
@@ -35,7 +35,7 @@ export default function DireitoTrabalhoPage() {
             </li>
           </ul>
           <p className="mb-4 italic">
-            Nosso time se dedica a oferecer soluções estratégicas para proteger seus interesses e garantir a aplicação correta da legislação trabalhista.
+            Nosso time acompanha cada caso com atenção à legislação trabalhista, buscando o correto encaminhamento de cada situação.
           </p>
           <div className="flex justify-center items-center">
             <Link

@@ -17,8 +17,8 @@ export default function DireitoCivelPage() {
         <div className="bg-gray-100 p-8 rounded-lg max-w-3xl mx-auto">
           <p className="text-gray-700 mb-4 italic">
             O Direito Cível rege as relações jurídicas entre pessoas, empresas e instituições, abrangendo uma vasta gama de situações cotidianas.
-            Nosso time oferece suporte jurídico abrangente para defender seus direitos e resolver conflitos de forma eficiente e justa.
-            Nossa atuação especializada abrange:
+            Nosso time oferece suporte jurídico para orientar sobre seus direitos e conduzir a resolução de conflitos.
+            Nossa área de atuação abrange:
           </p>
           <ul className="list-inside mb-4 text-center">
             <li className="mb-2 italic">
@@ -35,8 +35,8 @@ export default function DireitoCivelPage() {
             </li>
           </ul>
           <p className="mb-4 italic">
-            Com uma abordagem prática e focada em resultados, nosso time está preparada para oferecer a orientação
-            e a representação necessárias para proteger seus interesses no universo do Direito Cível.
+            Com uma abordagem prática e atenta a cada caso, nosso time está preparado para oferecer a orientação
+            e a representação necessárias no universo do Direito Cível.
           </p>
           <div className="flex justify-center items-center">
             <Link
