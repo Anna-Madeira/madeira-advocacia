@@ -16,9 +16,9 @@ export default function DireitoFamiliaPage() {
         </h2>
         <div className="bg-gray-100 p-8 rounded-lg max-w-3xl mx-auto">
           <p className="text-gray-700 mb-4 italic">
-            O Direito de Família lida com as relações mais íntimas, exigindo um olhar humano e estratégico.
-            Nosso time oferece suporte jurídico completo e empático para guiar você em cada etapa, sempre buscando o bem-estar de todos os envolvidos, especialmente das crianças.
-            Nossa atuação especializada abrange:
+            O Direito de Família lida com as relações mais íntimas, exigindo um olhar humano e atento.
+            Nosso time oferece suporte jurídico completo, acompanhando você em cada etapa, sempre com foco no bem-estar de todos os envolvidos, especialmente das crianças.
+            Nossa área de atuação abrange:
           </p>
           <ul className="list-inside mb-4 text-center">
             <li className="mb-2 italic">
@@ -44,7 +44,7 @@ export default function DireitoFamiliaPage() {
             </li>
           </ul>
           <p className="mb-4 italic">
-            Nosso time se dedica a oferecer orientação clara e soluções eficazes, proporcionando segurança e tranquilidade para que você possa seguir em frente com confiança.
+            Nosso time se dedica a oferecer orientação clara e acompanhamento próximo, para que você tenha as informações necessárias em cada etapa do processo.
           </p>
           <div className="flex justify-center items-center">
             <Link
