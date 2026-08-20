@@ -56,7 +56,7 @@ export default function HomePage() {
             Pronto(a) para Discutir Seu Caso?
           </h2>
           <p className="text-xl mb-8">
-            Entre em contato hoje mesmo para agendar sua consulta e encontrar a solução jurídica que você precisa.
+            Entre em contato para agendar uma consulta e conversar sobre a sua situação.
           </p>
           <Link
             href="/contato"

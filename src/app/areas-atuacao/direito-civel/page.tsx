@@ -35,8 +35,7 @@ export default function DireitoCivelPage() {
             </li>
           </ul>
           <p className="mb-4 italic">
-            Com uma abordagem prática e atenta a cada caso, nosso time está preparado para oferecer a orientação
-            e a representação necessárias no universo do Direito Cível.
+            O atendimento é conduzido com orientação clara e acompanhamento próximo, para que você tenha as informações necessárias em cada etapa do processo.
           </p>
           <div className="flex justify-center items-center">
             <Link

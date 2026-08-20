@@ -44,7 +44,7 @@ export default function DireitoFamiliaPage() {
             </li>
           </ul>
           <p className="mb-4 italic">
-            Nosso time se dedica a oferecer orientação clara e acompanhamento próximo, para que você tenha as informações necessárias em cada etapa do processo.
+            O atendimento é conduzido com orientação clara e acompanhamento próximo, para que você tenha as informações necessárias em cada etapa do processo.
           </p>
           <div className="flex justify-center items-center">
             <Link

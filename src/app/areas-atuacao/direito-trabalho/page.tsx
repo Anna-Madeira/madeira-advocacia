@@ -35,7 +35,7 @@ export default function DireitoTrabalhoPage() {
             </li>
           </ul>
           <p className="mb-4 italic">
-            Nosso time acompanha cada caso com atenção à legislação trabalhista, buscando o correto encaminhamento de cada situação.
+            O atendimento é conduzido com orientação clara e acompanhamento próximo, para que você tenha as informações necessárias em cada etapa do processo.
           </p>
           <div className="flex justify-center items-center">
             <Link

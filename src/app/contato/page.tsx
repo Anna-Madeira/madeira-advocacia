@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const WHATSAPP_NUMBER = "5511913405280";
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
-const EMAIL_ADDRESS = "teresa.madeira@aasp.org.br";
+const EMAIL_ADDRESS = "teresa.madeira@madeiraadvocacia.com.br";
 const OFFICE_ADDRESS = "Rua Dr. Samuel Porto, 396 - Saúde, São Paulo - SP, 04054-010";
 
 export default function ContatoPage() {
@@ -21,10 +21,13 @@ export default function ContatoPage() {
         </h1>
 
         <div className="bg-white p-8 rounded-lg shadow-md max-w-2xl mx-auto">
-          <h2 className="font-light mb-6 text-blue-700 text-center">Fale Conosco Diretamente</h2>
+          <h2 className="font-light mb-2 text-blue-700 text-center">Fale Conosco Diretamente</h2>
+          <p className="text-gray-600 text-center mb-6">
+            Atendimento online em todo o Brasil e presencial em São Paulo, com horário agendado.
+          </p>
 
-          <div className="mb-6 text-center">
-            <h3 className="font-extrabold mb-2">WhatsApp:</h3>
+          <div className="mb-6 flex items-center justify-center gap-3">
+            <h3 className="font-extrabold">WhatsApp:</h3>
             <Link
               href={WHATSAPP_LINK}
               target="_blank"
@@ -39,8 +42,8 @@ export default function ContatoPage() {
             </Link>
           </div>
 
-          <div className="mb-6 text-center">
-            <h3 className="font-bold text-lg mb-2">E-mail:</h3>
+          <div className="mb-6 flex items-center justify-center gap-3">
+            <h3 className="font-bold text-lg">E-mail:</h3>
             <a href={`mailto:${EMAIL_ADDRESS}`} className="inline-flex items-center text-blue-700 font-medium text-lg">
               {EMAIL_ADDRESS}
             </a>
@@ -48,7 +51,11 @@ export default function ContatoPage() {
 
           <div className="text-center">
             <h3 className="font-bold mb-2">Endereço do Escritório:</h3>
-            <p className="text-gray-700 mb-2">{OFFICE_ADDRESS}</p>
+            <p className="text-gray-700 mb-2">
+              {OFFICE_ADDRESS}
+              <br />
+              (próximo ao Metrô Saúde - Linha 1 Azul)
+            </p>
             <Link
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(OFFICE_ADDRESS)}`}
               target="_blank"

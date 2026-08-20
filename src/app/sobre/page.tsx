@@ -13,7 +13,7 @@ export default function SobrePage() {
         <div className="bg-gray-100 p-8 rounded-lg max-w-3xl mx-auto">
           <h2 className="text-xl font-semibold text-blue-700 mb-4 text-center">Quem somos</h2>
           <p className="text-gray-700 mb-8 text-center">
-            O Madeira Advocacia atua nas áreas de Direito de Família, Direito Cível e Direito do Trabalho,
+            Madeira Advocacia — Atuamos nas áreas de Direito de Família, Direito Cível e Direito do Trabalho,
             oferecendo atendimento próximo e atenção ao contexto de cada cliente. O atendimento é conduzido de
             forma direta e transparente, com explicações claras sobre cada etapa do processo.
           </p>
