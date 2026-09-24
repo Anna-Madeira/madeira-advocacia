@@ -4,6 +4,18 @@ Site institucional da **Madeira Advocacia**, escritório em São Paulo que atua 
 
 🔗 **[www.madeiraadvocacia.com.br](https://www.madeiraadvocacia.com.br)**
 
+## 📸 Telas
+
+<p align="center">
+  <img src="docs/screenshots/home-desktop.png" alt="Página inicial no desktop" width="68%" />
+  &nbsp;
+  <img src="docs/screenshots/home-mobile.png" alt="Página inicial no celular" width="24%" />
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/contato-desktop.png" alt="Página de contato" width="68%" />
+</p>
+
 ## 🚀 Tecnologias
 
 - [Next.js 16](https://nextjs.org) (App Router)
